@@ -28,7 +28,7 @@ function getRecipesFromStorage() {
   if (recipeList == null){
     return [];
   }
-  return recipeList;
+  return JSON.parse(recipeList);
 }
 
 /**
